@@ -5,7 +5,7 @@ Project for analyzing survey data and rewriting report chapters.
 # Result
 Result markdown file path is
 ```bash
-\outputs\ch45_rewrite\第4章-第5章重写稿_详细版.md
+/outputs/ch45_rewrite/第4章-第5章重写稿_详细版.md
 ```
 
 ## Environment Setup

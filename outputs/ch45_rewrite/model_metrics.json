@@ -1,0 +1,58 @@
+{
+  "n_samples": 550,
+  "positive_rate": 0.3,
+  "threshold_log_engagement": 6.69232050121481,
+  "logistic_regression": {
+    "roc_auc": 0.7284385214986171,
+    "accuracy": 0.7536231884057971,
+    "f1": 0.5952380952380952,
+    "precision": 0.5813953488372093,
+    "recall": 0.6097560975609756
+  },
+  "xgboost": {
+    "roc_auc": 0.712974603972844,
+    "accuracy": 0.7318840579710145,
+    "f1": 0.5066666666666667,
+    "precision": 0.5588235294117647,
+    "recall": 0.4634146341463415
+  },
+  "best_model": "logistic_regression",
+  "top_features": [
+    {
+      "feature": "platform_tieba",
+      "importance": 1.6045967800009855
+    },
+    {
+      "feature": "platform_bili",
+      "importance": 1.467679803942673
+    },
+    {
+      "feature": "platform_douyin",
+      "importance": 1.1795863491360745
+    },
+    {
+      "feature": "platform_weibo",
+      "importance": 1.0134247449157618
+    },
+    {
+      "feature": "platform_xhs",
+      "importance": 0.19220828619271949
+    },
+    {
+      "feature": "platform_zhihu",
+      "importance": 0.1330950611054313
+    },
+    {
+      "feature": "sentiment",
+      "importance": 0.01021517616137468
+    },
+    {
+      "feature": "text_len",
+      "importance": 0.00023780756949231334
+    },
+    {
+      "feature": "hashtag_count",
+      "importance": 0.0
+    }
+  ]
+}

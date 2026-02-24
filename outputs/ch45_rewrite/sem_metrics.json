@@ -1,0 +1,54 @@
+{
+  "n_samples": 550,
+  "main_path_count": 9,
+  "top_paths": [
+    {
+      "lval": "PWI",
+      "rval": "CWI",
+      "Estimate": 0.9818390904279813,
+      "p-value": 0.0
+    },
+    {
+      "lval": "CWI",
+      "rval": "MTPC",
+      "Estimate": 0.2506607814341992,
+      "p-value": 1.0875615963357177e-09
+    },
+    {
+      "lval": "CWI",
+      "rval": "MTP",
+      "Estimate": -4.688309485421272e-06,
+      "p-value": 0.9999999999119147
+    },
+    {
+      "lval": "PWI",
+      "rval": "MGD",
+      "Estimate": -0.006534279636981462,
+      "p-value": 0.4636281140610501
+    },
+    {
+      "lval": "MGD",
+      "rval": "MTPC",
+      "Estimate": -0.08038571372045686,
+      "p-value": 0.03804339776427801
+    },
+    {
+      "lval": "CWI",
+      "rval": "MTE",
+      "Estimate": -0.086697460322117,
+      "p-value": 0.4655545344429657
+    },
+    {
+      "lval": "CWI",
+      "rval": "CF",
+      "Estimate": -0.09251981322405778,
+      "p-value": 0.027267083966881378
+    },
+    {
+      "lval": "MGD",
+      "rval": "MTE",
+      "Estimate": -0.21486366903807236,
+      "p-value": 0.054666281015892215
+    }
+  ]
+}
